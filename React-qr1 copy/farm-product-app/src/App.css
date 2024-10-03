@@ -1,0 +1,185 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+.app-page {
+  height: 100%;
+  padding: 44px 0;
+  box-sizing: border-box;
+}
+
+.app-header,
+.app-footer {
+  height: 44px;
+  padding: 4px;
+  background: #011742;
+  color: #fff;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.app-header {
+  top: 0;
+}
+
+.app-footer {
+  bottom: 0;
+}
+
+.app-title {
+  text-align: center;
+  padding: 0 36px;
+}
+
+.app-title h1 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.app-path {
+  font-size: 12px;
+  line-height: 36px;
+  padding: 0 12px;
+}
+
+.app-back {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 24px;
+  text-align: center;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+
+.app-back a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: background-color 200ms ease-in-out;
+}
+
+.app-back a:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.app-back a:active {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.app-back .mbsc-icon {
+  display: block;
+}
+
+.app-home {
+  padding-bottom: 44px;
+  background: inherit;
+}
+
+.app-home div {
+  background: inherit;
+}
+
+.app-home h2 {
+  position: sticky;
+  top: 44px;
+  z-index: 2;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  padding: 10px 0;
+  margin: 0;
+  background: inherit;
+  border-bottom: 4px solid;
+}
+
+.app-home h3 {
+  position: sticky;
+  top: 94px;
+  z-index: 1;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 10px 0;
+  margin: 0;
+  background: inherit;
+}
+
+.app-home h4 {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 20px 0 10px 0;
+  margin: 0;
+  opacity: 0.65;
+}
+
+.app-home ul {
+  margin-left: 0;
+}
+
+.app-home li {
+  list-style: none;
+}
+
+.app-home a {
+  display: block;
+  padding: 0 10px;
+  font-size: 15px;
+  line-height: 36px;
+  color: inherit;
+  opacity: 0.8;
+}
+
+.app-home a:hover {
+  background: rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+
+.mbsc-ios-dark .app-home a:hover,
+.mbsc-material-dark .app-home a:hover,
+.mbsc-windows-dark .app-home a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.app-datepicker h2 {
+  border-color: #3f98f6;
+}
+
+.app-datepicker h3 {
+  color: #3f98f6;
+}
+
+.app-eventcalendar h2 {
+  border-color: #9c3ff6;
+}
+
+.app-eventcalendar h3 {
+  color: #9c3ff6;
+}
+
+.app-form-components h2 {
+  border-color: #f6a33f;
+}
+
+.app-form-components h3 {
+  color: #f6a33f;
+}
+
+.app-pickers h2 {
+  border-color: #f63fa1;
+}
+
+.app-pickers h3 {
+  color: #f63fa1;
+}
